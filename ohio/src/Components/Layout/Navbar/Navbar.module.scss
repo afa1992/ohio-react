@@ -1,0 +1,51 @@
+@import "../../../scss/variable.scss";
+
+.nav {
+  background-color: $bg_color;
+  .after {
+    ul {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      li {
+        list-style: none;
+        a {
+          color: $primary_color;
+          text-decoration: none;
+          font-size: $fnt_size;
+          font-weight: $fnt_weight;
+        }
+        svg {
+          font-size: 10px;
+        }
+        :hover {
+          color: $hover_color;
+        }
+      }
+      :nth-child(8) ::after {
+        content: "v3.0";
+        background-color: $primary_color;
+        color: white;
+        font-size: 12px;
+        border-radius: 5px;
+        padding: 2px;
+        margin-left: -9px;
+        :hover {
+          color: $hover_color;
+        }
+      }
+    }
+  }
+  button {
+    background-color: $primary_color;
+    color: $li_color;
+    font-size: 15px;
+    line-height: $line_height;
+    margin-left: -30px;
+    border-radius: 7px;
+    overflow-wrap: break-word;
+    width: 110px;
+    padding: 3px;
+  }
+}
