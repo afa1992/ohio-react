@@ -1,8 +1,14 @@
 import React from "react";
 import { BsArrowUpRight, BsAwardFill } from "react-icons/bs";
 import styled from "../Intro/Intro.module.scss";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Intro = () => {
+  useEffect(() => {
+    AOS.init(4000);
+  }, []);
   return (
     <section className={styled.intro}>
       <div className={styled.intro_dark}>
@@ -15,7 +21,7 @@ const Intro = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-up">
               <div className={styled.inverse_red}>
                 <img
                   src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio/landing/assets/img/new/FigmaShape.svg"
@@ -32,7 +38,7 @@ const Intro = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-up">
               <div className={styled.inverse_black}>
                 <img
                   src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio/landing/assets/img/new/FigmaShape.svg"
@@ -133,7 +139,7 @@ const Intro = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4" data-aos="fade-up">
               <div className={styled.inverse}>
                 <img
                   src="https://colabrio.ams3.cdn.digitaloceanspaces.com/ohio/landing/assets/img/new/TranslateIcon.svg"
