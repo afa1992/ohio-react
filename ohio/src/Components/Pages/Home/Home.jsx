@@ -1,12 +1,12 @@
 import React from "react";
-// import Barleft from '../../Barleft/Barleft';
+import Banner from "./Banner/Banner";
 import Hero from "./Hero/Hero";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      {/* <Barleft/> */}
+      <Banner />
     </>
   );
 };
