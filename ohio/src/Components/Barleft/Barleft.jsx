@@ -15,7 +15,7 @@ const Barleft = () => {
           <span>
             Dark <BsMoon />
           </span>
-          {/* <p style={{ marginBottom: "10vh",position:'fixed', bottom:'200px' ,left:'70px',WritingMode:'vertical-lr'}}>ScrollToTop </p>  */}
+
           <span>ScrollToTop</span>
         </div>
       </div>

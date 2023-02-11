@@ -1,7 +1,7 @@
-.left {
+.right {
   position: fixed;
   top: 100px;
-  left: 70px;
+  right: 70px;
   .switcher {
     width: 40px;
     display: flex;
@@ -17,7 +17,7 @@
         display: flex;
         padding: 10px;
         text-orientation: mixed;
-        writing-mode: vertical-lr;
+        writing-mode: vertical-rl;
         color: black;
         background-color: transparent;
         justify-content: center;
@@ -27,11 +27,6 @@
         border: none;
         gap: 5px;
       }
-    }
-  }
-  .totop {
-    svg {
-      fill: black;
     }
   }
 }

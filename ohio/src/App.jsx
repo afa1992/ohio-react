@@ -6,6 +6,7 @@ import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import styled from "../src/App.module.scss";
 import Layout from "./Components/Layout/Layout";
 import Barleft from "./Components/Barleft/Barleft";
+import Barright from "./Components/Barright/Barright";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -38,6 +39,7 @@ function App() {
             ))}
           </Routes>
           <Barleft />
+          <Barright />
         </Layout>
       )}
     </div>
