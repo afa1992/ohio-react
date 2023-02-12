@@ -1,4 +1,7 @@
 .banner {
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
   display: flex;
   width: 56vw;
   transform: translateY(-50%) rotate(-15deg);

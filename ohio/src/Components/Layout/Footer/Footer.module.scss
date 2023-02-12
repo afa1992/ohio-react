@@ -1,6 +1,6 @@
 .footer {
   background-color: #161519;
-  padding: 6rem 0;
+  padding: 6rem 0 0 3rem;
 
   h4 {
     color: #fff;
@@ -21,18 +21,14 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 20px 0;
+    padding: 3rem 0;
 
     p {
       float: right;
       color: #9690a2;
       font-size: 1.025rem;
       line-height: 1.6;
-    }
-    h6 {
-      color: #9690a2;
-      font-size: 1.025rem;
-      line-height: 1.6;
+      padding: 10px;
     }
   }
 }

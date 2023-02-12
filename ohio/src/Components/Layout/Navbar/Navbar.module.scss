@@ -4,6 +4,10 @@
   position: relative;
   background-color: $bg_color;
 
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
+
   .box {
     .after {
       display: flex;
@@ -174,6 +178,9 @@
   }
 
   button {
+    @media screen and (max-width: 990px) {
+      display: none;
+    }
     background-color: $primary_color;
     color: $li_color;
     font-size: 15px;

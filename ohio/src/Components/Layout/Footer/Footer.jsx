@@ -10,7 +10,10 @@ const Footer = () => {
           {Foot &&
             Foot.map((element) => {
               return (
-                <div className="col-md-3 p-3" key={`product_id${element.id}`}>
+                <div
+                  className="col-md-3 col-sm-12 p-3"
+                  key={`product_id${element.id}`}
+                >
                   <h4>
                     {" "}
                     {element.h4} <br /> {element.hh}{" "}
@@ -23,14 +26,12 @@ const Footer = () => {
               );
             })}
         </div>
-        <div className="row ">
-          <div className={styled.copyright}>
-            <div className="col-md-6">
-              <h6> © 2016-2023 Colabrio. All rights reserved | </h6>
-            </div>
-            <div className="col-md-6">
-              <p>Security| Privacy & Cookie Policy| Terms of Service</p>
-            </div>
+        <div className={`row &{styled.copyright}`}>
+          <div className="col-md-6 col-sm-12">
+            <p> © 2016-2023 Colabrio. All rights reserved | </p>
+          </div>
+          <div className="col-md-6 col-sm-12">
+            <p>Security| Privacy & Cookie Policy| Terms of Service</p>
           </div>
         </div>
       </div>

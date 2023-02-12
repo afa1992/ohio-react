@@ -1,4 +1,7 @@
 .right {
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
   position: fixed;
   top: 100px;
   right: 70px;
