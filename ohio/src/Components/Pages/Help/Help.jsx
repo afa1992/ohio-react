@@ -1,7 +1,14 @@
 import React from "react";
+import Contact from "./Contact/Contact";
+import Getintouch from "./Getintouch/Getintouch";
 
 const Help = () => {
-  return <div>Help</div>;
+  return (
+    <>
+      <Contact />
+      <Getintouch />
+    </>
+  );
 };
 
 export default Help;

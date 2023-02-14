@@ -2,7 +2,7 @@
 
 .nav {
   position: relative;
-  background-color: $bg_color;
+  background-color: transparent;
 
   @media screen and (max-width: 990px) {
     display: none;
