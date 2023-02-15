@@ -8,6 +8,8 @@ import Layout from "./Components/Layout/Layout";
 import Barleft from "./Components/Barleft/Barleft";
 import Barright from "./Components/Barright/Barright";
 import Navbar from "./Components/Layout/Navbar/Navbar";
+import MobNav from "./Components/Layout/Navbar/MobNav";
+import Sidebar from "./Components/Layout/Navbar/Sidebar";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -45,6 +47,8 @@ function App() {
       ) : (
         <>
           <Navbar />
+          <MobNav />
+          <Sidebar />
           <Routes>
             {router.map((router) => (
               <React.Fragment key={router.path}>
