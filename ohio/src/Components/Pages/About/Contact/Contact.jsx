@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Contact/Contact.module.scss";
+import styles from "./Contact.module.scss";
 import AOS from "aos";
 import { useEffect } from "react";
 

@@ -3,8 +3,8 @@ import Elements from "../src/Components/Pages/Elements/Elements";
 import Portfolio from "../src/Components/Pages/Portfolio/Portfolio";
 import Blog from "../src/Components/Pages/Blog/Blog";
 import Shop from "../src/Components/Pages/Shop/Shop";
+import Pages from "../src/Components/Pages/About/About";
 import About from "../src/Components/Pages/About/About";
-import Help from "../src/Components/Pages/Help/Help";
 import Changelog from "../src/Components/Pages/Changelog/Changelog";
 
 const router = [
@@ -46,17 +46,17 @@ const router = [
   },
   {
     id: Math.random(),
+    name: "Pages",
+    path: "/pages",
+    exact: true,
+    component: <Pages />,
+  },
+  {
+    id: Math.random(),
     name: "About",
     path: "/about",
     exact: true,
     component: <About />,
-  },
-  {
-    id: Math.random(),
-    name: "Help",
-    path: "/help",
-    exact: true,
-    component: <Help />,
   },
 
   {

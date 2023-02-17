@@ -1,19 +1,11 @@
 import React from "react";
 import styled from "../Navbar/MobNav.module.scss";
-import Sidebar from "./Sidebar";
+import Burger from "./Burger";
 
 const MobNav = () => {
   return (
     <div className={styled.mob_navbar}>
-      <div className="side" id="page-wrap">
-        <div id="outer-container">
-          <Sidebar
-            pageWrapId={"page-wrap"}
-            outerContainerId={"outer-container"}
-          />
-        </div>
-      </div>
-
+      <Burger />
       <div className="logo">
         <img
           src="https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/LitFhpPB-OhioLogo.svg"

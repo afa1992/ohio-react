@@ -1,30 +1,15 @@
 import React from "react";
-import GoogleMapReact from "google-map-react";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
-export default function SimpleMap() {
-  const defaultProps = {
-    center: {
-      lat: 40.367474,
-      lng: -82.996216,
-    },
-    zoom: 11,
-  };
-
+const Join = () => {
   return (
-    // Important! Always set the container height explicitly
-    <div style={{ height: "50vh", width: "100%" }}>
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}
-      >
-        <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
-      </GoogleMapReact>
-
+    <div>
       <div
-        style={{ backgroundColor: "#151619", width: "100%", height: "50vh" }}
+        style={{
+          backgroundColor: "#151619",
+          width: "100%",
+          height: "55vh",
+          padding: "30px 0",
+        }}
       >
         <div className="container">
           <div className="row">
@@ -52,17 +37,16 @@ export default function SimpleMap() {
                 Join our team.
               </h2>
             </div>
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 col-sm-12 text-center ">
               <button
                 style={{
                   backgroundColor: "#dc2828",
                   color: "#fff",
                   borderRadius: ".35rem",
-                  float: "right",
                   fontSize: "16px",
                   fontWeight: "500",
                   padding: "10px 15px",
-                  margin: "5rem 0 0",
+                  margin: "1rem 0",
                 }}
               >
                 See Open Positions
@@ -87,4 +71,6 @@ export default function SimpleMap() {
       </div>
     </div>
   );
-}
+};
+
+export default Join;
