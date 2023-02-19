@@ -2,7 +2,7 @@ import React from "react";
 import styled from "../Cards/Cards.module.scss";
 import AOS from "aos";
 import { useEffect } from "react";
-import Demosites from "../../../MockData/CardMock";
+import { Demosites } from "../../../MockData/CardMock";
 
 const Cards = () => {
   useEffect(() => {

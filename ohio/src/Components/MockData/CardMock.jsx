@@ -188,4 +188,28 @@ const Demosites = [
   },
 ];
 
-export default Demosites;
+const RelatedProducts = [
+  {
+    id: Math.random(),
+    _Img: "https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/ProductImage__002-768x768.jpg",
+    title: "Johanna Upholstery Chair	",
+    category: "Chairs,Everyday Essentials",
+    price: "$39.00",
+  },
+  {
+    id: Math.random(),
+    _Img: "https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/ProductImage__026-768x768.jpg",
+    title: "Gosta Upholstery Chair",
+    category: "Chairs,Everyday Essentials",
+    price: "$89.00",
+  },
+  {
+    id: Math.random(),
+    _Img: "https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/ProductImage__052-768x768.jpg",
+    title: "Gosta Upholstery Armchair",
+    category: "Chairs,Everyday Essentials",
+    price: "$49.00-$59.00",
+  },
+];
+export { Demosites };
+export { RelatedProducts };
