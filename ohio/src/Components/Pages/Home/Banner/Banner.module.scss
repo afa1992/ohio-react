@@ -1,0 +1,45 @@
+.banner {
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
+  display: flex;
+  width: 56vw;
+  transform: translateY(-50%) rotate(-15deg);
+  left: 38%;
+  position: absolute;
+  top: 75%;
+  z-index: 99;
+
+  .banner_small {
+    margin-right: 2rem;
+    position: relative;
+    width: 20%;
+    object-position: center;
+    object-fit: cover;
+
+    .demo_img {
+      top: 1.2%;
+      left: 5.5%;
+      border-radius: 1.3rem;
+      border-radius: 20px;
+      width: 145px;
+      height: 309px;
+    }
+    .phone_img {
+      position: absolute;
+      top: -4px;
+      left: -9px;
+      z-index: 2;
+      width: 202px;
+      height: 357px;
+    }
+  }
+  .banner_big {
+    width: 80%;
+    margin: -6% 0 0 -11%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

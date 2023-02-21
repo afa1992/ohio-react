@@ -1,0 +1,21 @@
+.mob_navbar {
+  display: none;
+
+  @media screen and (max-width: 990px) {
+    display: flex;
+    background-color: #f9eff5;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  button {
+    background-color: #161519;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1;
+    border-radius: 7px;
+    overflow-wrap: break-word;
+    width: 100px;
+    padding: 3px;
+  }
+}
