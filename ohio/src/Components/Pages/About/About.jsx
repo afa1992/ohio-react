@@ -14,7 +14,6 @@ const Help = () => {
       <Input />
       <Map />
       <Join />
-      <ContactFoot />
     </>
   );
 };
