@@ -1,0 +1,19 @@
+@import "../scss/mixin.scss";
+@import "../scss/variable.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  // background-color: rgba(34, 119, 91, 0.05);
+  // background-color: #f9f8fa;
+  background-color: #fff;
+  color: #161519;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  overflow-x: hidden;
+  line-height: 1.6;
+}
