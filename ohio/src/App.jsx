@@ -32,7 +32,7 @@ function App() {
             data-testid="loader"
           />
         </div>
-      ) : window.location.pathname === "/" ? (
+      ) : window.location.pathname === "/portfolio" ? (
         <Layout>
           <Routes>
             {router.map((router) => (
