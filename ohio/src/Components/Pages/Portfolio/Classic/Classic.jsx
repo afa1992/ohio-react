@@ -8,7 +8,7 @@ const Classic = () => {
         <div className="row ">
           <div className="col-lg-12  text-center">
             <div className="animated_holder">
-              <h1>Classic Contained</h1>
+              <h1>Classic</h1>
               <div className="meta_holder">
                 <span>WPBakery</span>
                 <span>Elementor</span>
