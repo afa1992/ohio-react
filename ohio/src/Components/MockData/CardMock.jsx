@@ -211,5 +211,39 @@ const RelatedProducts = [
     price: "$49.00-$59.00",
   },
 ];
+
+const Products = [
+  {
+    id: Math.random(),
+    _Img: "https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/clb_blog_21-882x1024.jpeg",
+    title: " Creativo Para Jóvenes: a Designer’s UI/UX Complete Checklist.",
+  },
+  {
+    id: Math.random(),
+    _Img: "https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/clb_blog_3-min-882x1024.jpg",
+    title: " The Highly Contemporary UI/UX Design from a Silicon Valley.	",
+  },
+  {
+    id: Math.random(),
+    _Img: "https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/clb_blog_20-min-882x1024.jpeg",
+    title: "Definitive Guide to Make a Daily More Productive Working Flow.	",
+  },
+  {
+    id: Math.random(),
+    _Img: "https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/clb_blog_5-872x1024.jpg",
+    title: " Organic Food Isn’t Much Better For Your Future Health.	",
+  },
+  {
+    id: Math.random(),
+    _Img: "https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/clb_blog_4-872x1024.jpg",
+    title: " The Start-Up Ultimate Guide to Make Your WordPress Journal.	",
+  },
+  {
+    id: Math.random(),
+    _Img: "https://colabrio.ams3.cdn.digitaloceanspaces.com/stage.clbthemes.com/clb_blog_17-1024x858.jpg",
+    title: "Gosta Upholstery Armchair",
+  },
+];
 export { Demosites };
+export { Products };
 export { RelatedProducts };

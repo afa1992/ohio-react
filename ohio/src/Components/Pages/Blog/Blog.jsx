@@ -1,7 +1,12 @@
 import React from "react";
+import ClassicContained from "./ClassicContained/ClassicContained";
 
 const Blog = () => {
-  return <div>Blog</div>;
+  return (
+    <div>
+      <ClassicContained />
+    </div>
+  );
 };
 
 export default Blog;
