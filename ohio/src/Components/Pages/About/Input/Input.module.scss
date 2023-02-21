@@ -1,0 +1,60 @@
+.form {
+  padding: 3rem 0;
+  label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 5px;
+    border-radius: 0.35rem;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: #f7f6f8;
+  }
+  select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 5px;
+    border-radius: 0.35rem;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: #f7f6f8;
+  }
+
+  textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 5px;
+    border-radius: 0.35rem;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: #f7f6f8;
+  }
+
+  .check {
+    display: flex;
+    flex-direction: row;
+    input {
+      width: 20px;
+      margin: 0 5px;
+    }
+    label {
+      padding: 10px 0;
+    }
+  }
+  .optional {
+    background-color: #161519;
+    color: white;
+    font-size: 0.95em;
+    line-height: 1;
+    border: none;
+    font-weight: 700;
+    border-radius: 7px;
+    overflow-wrap: break-word;
+    padding: 1.15rem;
+    margin: 10px 0;
+  }
+}
